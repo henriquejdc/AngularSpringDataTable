@@ -24,14 +24,15 @@ npm install ngx-bootstrap bootstrap --save
 
 Add the below lines code to Angular.json file
 
- "styles": [
-              "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css" 
-            ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
-            ]
+"styles": [
+ "src/styles.css",
+ "node_modules/bootstrap/dist/css/bootstrap.min.css" 
+],
+"scripts": [
+ "node_modules/jquery/dist/jquery.min.js",
+ "node_modules/bootstrap/dist/js/bootstrap.min.js"
+]
+
 -------------------------------------------------------------------------------------------------------------------------------
 Angular Data table setup:
 
@@ -50,5 +51,5 @@ Add the below lines code into app.modules.ts file
 import { DataTablesModule } from 'angular-datatables';
 
 imports: [
-    DataTablesModule
-  ]
+ DataTablesModule
+]
