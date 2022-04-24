@@ -17,7 +17,7 @@ Back-end:
 - Run a Angular
 - Run a Spring Boot
 
-## Install
+## Install / ADD
 Boot strap installation:
 npm install jquery --save
 npm install ngx-bootstrap bootstrap --save
